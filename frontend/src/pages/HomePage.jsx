@@ -5,7 +5,7 @@ import LoadingScreen from '../components/LoadingScreen';
 import Dashboard from '../components/Dashboard';
 import { AlertTriangle, X } from 'lucide-react';
 
-const API = 'http://127.0.0.1:8000';
+const API = 'https://repository-architecture-navigator.onrender.com';
 
 export default function HomePage() {
   const [loading, setLoading] = useState(false);

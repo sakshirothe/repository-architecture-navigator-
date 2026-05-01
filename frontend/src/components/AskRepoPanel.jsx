@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { MessageSquare, Send, Loader, Sparkles } from 'lucide-react';
 
-const API = 'http://127.0.0.1:8000';
+const API = 'https://repository-architecture-navigator.onrender.com';
 
 export default function AskRepoPanel({ repoUrl, sampleQuestions = [] }) {
   const [question, setQuestion] = useState('');
